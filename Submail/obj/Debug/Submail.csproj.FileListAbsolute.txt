@@ -1,0 +1,7 @@
+C:\Users\张杨\Desktop\yang\SUBMAIL_C_SHARP_SDK-master\Submail\bin\Debug\Submail.dll
+C:\Users\张杨\Desktop\yang\SUBMAIL_C_SHARP_SDK-master\Submail\bin\Debug\Submail.pdb
+C:\Users\张杨\Desktop\yang\SUBMAIL_C_SHARP_SDK-master\Submail\bin\Debug\Newtonsoft.Json.dll
+C:\Users\张杨\Desktop\yang\SUBMAIL_C_SHARP_SDK-master\Submail\obj\Debug\Submail.csproj.CoreCompileInputs.cache
+C:\Users\张杨\Desktop\yang\SUBMAIL_C_SHARP_SDK-master\Submail\obj\Debug\Submail.dll
+C:\Users\张杨\Desktop\yang\SUBMAIL_C_SHARP_SDK-master\Submail\obj\Debug\Submail.pdb
+C:\Users\张杨\Desktop\yang\SUBMAIL_C_SHARP_SDK-master\Submail\obj\Debug\Submail.csprojResolveAssemblyReference.cache

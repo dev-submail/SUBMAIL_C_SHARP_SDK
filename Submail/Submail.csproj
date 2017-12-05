@@ -1,0 +1,93 @@
+﻿<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3D61361E-D61D-49A1-94F8-7A019F81DECA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Submail</RootNamespace>
+    <AssemblyName>Submail</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\Dependency\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppConfig\VoiceAppConfig.cs" />
+    <Compile Include="Lib\AddressBookMail.cs" />
+    <Compile Include="Lib\AddressBookMessage.cs" />
+    <Compile Include="Lib\ISender.cs" />
+    <Compile Include="Lib\Mail.cs" />
+    <Compile Include="AppConfig\MailAppConfig.cs" />
+    <Compile Include="AppConfig\IntenationalSmsConfig.cs" />
+    <Compile Include="AppConfig\IAppConfig.cs" />
+    <Compile Include="Lib\MailSend.cs" />
+    <Compile Include="Lib\MailXSend.cs" />
+    <Compile Include="Lib\Message.cs" />
+    <Compile Include="AppConfig\MessageConfig.cs" />
+    <Compile Include="Lib\MessageLog.cs" />
+    <Compile Include="Lib\MessageMultiXSend.cs" />
+    <Compile Include="Lib\MessageSend.cs" />
+    <Compile Include="Lib\MessageTemplate.cs" />
+    <Compile Include="Lib\MessageXSend.cs" />
+    <Compile Include="Lib\SendBase.cs" />
+<<<<<<< HEAD
+    <Compile Include="Lib\Voice.cs" />
+    <Compile Include="Lib\VoiceMultiXSend.cs" />
+    <Compile Include="Lib\VoiceSend.cs" />
+    <Compile Include="Lib\VoiceVerify.cs" />
+    <Compile Include="Lib\VoiceXSend.cs" />
+=======
+    <Compile Include="Lib\VoiceVerify.cs" />
+>>>>>>> origin/master
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility\HttpWebHelper.cs" />
+    <Compile Include="Utility\RequestHelper.cs" />
+    <Compile Include="Utility\SignatureHelper.cs" />
+    <Compile Include="Lib\IntenationalSmsSend.cs" />
+    <Compile Include="Lib\InternationalSms.cs" />
+    <Compile Include="Lib\InternationalSmsXSend.cs" />
+    <Compile Include="Lib\InternationalSmsMultiXSend.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Submail", "Submail\Submail.csproj", "{3D61361E-D61D-49A1-94F8-7A019F81DECA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubMailTest", "SubMailTest\SubMailTest.csproj", "{633FCAB2-6BAA-4EE7-BB3E-41C5FEE836A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D12BDCFE-6EFA-417A-8F12-555697EDD01B}"
+	ProjectSection(SolutionItems) = preProject
+		Submail.sln = Submail.sln
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D61361E-D61D-49A1-94F8-7A019F81DECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D61361E-D61D-49A1-94F8-7A019F81DECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D61361E-D61D-49A1-94F8-7A019F81DECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D61361E-D61D-49A1-94F8-7A019F81DECA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{633FCAB2-6BAA-4EE7-BB3E-41C5FEE836A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{633FCAB2-6BAA-4EE7-BB3E-41C5FEE836A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{633FCAB2-6BAA-4EE7-BB3E-41C5FEE836A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{633FCAB2-6BAA-4EE7-BB3E-41C5FEE836A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

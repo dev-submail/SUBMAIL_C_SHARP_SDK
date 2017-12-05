@@ -1,0 +1,10 @@
+C:\Users\张杨\Desktop\yang\SUBMAIL_C_SHARP_SDK-master\SubMailTest\bin\Debug\SubMailTest.exe.config
+C:\Users\张杨\Desktop\yang\SUBMAIL_C_SHARP_SDK-master\SubMailTest\bin\Debug\SubMailTest.exe
+C:\Users\张杨\Desktop\yang\SUBMAIL_C_SHARP_SDK-master\SubMailTest\bin\Debug\SubMailTest.pdb
+C:\Users\张杨\Desktop\yang\SUBMAIL_C_SHARP_SDK-master\SubMailTest\bin\Debug\Submail.dll
+C:\Users\张杨\Desktop\yang\SUBMAIL_C_SHARP_SDK-master\SubMailTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\张杨\Desktop\yang\SUBMAIL_C_SHARP_SDK-master\SubMailTest\bin\Debug\Submail.pdb
+C:\Users\张杨\Desktop\yang\SUBMAIL_C_SHARP_SDK-master\SubMailTest\obj\Debug\SubMailTest.csprojResolveAssemblyReference.cache
+C:\Users\张杨\Desktop\yang\SUBMAIL_C_SHARP_SDK-master\SubMailTest\obj\Debug\SubMailTest.csproj.CoreCompileInputs.cache
+C:\Users\张杨\Desktop\yang\SUBMAIL_C_SHARP_SDK-master\SubMailTest\obj\Debug\SubMailTest.exe
+C:\Users\张杨\Desktop\yang\SUBMAIL_C_SHARP_SDK-master\SubMailTest\obj\Debug\SubMailTest.pdb
