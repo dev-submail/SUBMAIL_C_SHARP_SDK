@@ -18,8 +18,8 @@ namespace SubMailTest
 			 //MailSendDemo mailSendDemo = new MailSendDemo();
 			 //mailSendDemo.SendMail();
 
-			MessageLogDemo messageLogDemo = new MessageLogDemo();
-			messageLogDemo.messageLog();
+			//MessageLogDemo messageLogDemo = new MessageLogDemo();
+			//messageLogDemo.messageLog();
 
 			//MessageSendDemo messageSendDemo = new MessageSendDemo();
 			//messageSendDemo.SendMessage();
@@ -33,8 +33,8 @@ namespace SubMailTest
 			//MessageTemplateDemo mtd = new MessageTemplateDemo();
 			//mtd.MessageTemplate();
 
-			//VoiceSendDemo voiceSendDemo = new VoiceSendDemo();
-			//voiceSendDemo.SendVoice();
+			VoiceSendDemo voiceSendDemo = new VoiceSendDemo();
+			voiceSendDemo.SendVoice();
 
 			//VoiceVerifyDemo voiceVerifyDemo = new VoiceVerifyDemo();
 			//voiceVerifyDemo.SendVoiceVerify();

@@ -1,30 +1,31 @@
 ﻿<Properties StartupConfiguration="{633FCAB2-6BAA-4EE7-BB3E-41C5FEE836A8}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SubMailTest/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SubMailTest/VoiceXSendDemo.cs">
     <Files>
-      <File FileName="SubMailTest/AddressBookMailDemo.cs" Line="15" Column="73" />
-      <File FileName="SubMailTest/AddressBookMessageDemo.cs" Line="26" Column="72" />
-      <File FileName="SubMailTest/InternationalSmsMultiXSendDemo.cs" Line="15" Column="72" />
-      <File FileName="SubMailTest/InternationalSmsSendDemo.cs" Line="15" Column="72" />
-      <File FileName="SubMailTest/InternationalSmsXSendDemo.cs" Line="15" Column="72" />
-      <File FileName="SubMailTest/MailSendDemo.cs" Line="15" Column="73" />
-      <File FileName="SubMailTest/MailSendXDemo.cs" Line="15" Column="73" />
-      <File FileName="SubMailTest/MessageLogDemo.cs" Line="15" Column="63" />
-      <File FileName="SubMailTest/MessageMultiXSendDemo.cs" Line="15" Column="63" />
-      <File FileName="SubMailTest/MessageSendDemo.cs" Line="15" Column="63" />
-      <File FileName="SubMailTest/MessageSendXDemo.cs" Line="15" Column="63" />
-      <File FileName="SubMailTest/MessageTemplateDemo.cs" Line="16" Column="70" />
-      <File FileName="SubMailTest/VoiceMultiXSendDemo.cs" Line="15" Column="73" />
-      <File FileName="SubMailTest/VoiceSendDemo.cs" Line="15" Column="73" />
-      <File FileName="SubMailTest/VoiceVerifyDemo.cs" Line="15" Column="73" />
-      <File FileName="SubMailTest/VoiceXSendDemo.cs" Line="15" Column="73" />
-      <File FileName="Submail/Utility/HttpWebHelper.cs" Line="67" Column="3" />
-      <File FileName="SubMailTest/Program.cs" Line="22" Column="32" />
+      <File FileName="SubMailTest/Program.cs" Line="36" Column="25" />
+      <File FileName="SubMailTest/AddressBookMailDemo.cs" Line="1" Column="1" />
+      <File FileName="SubMailTest/AddressBookMessageDemo.cs" Line="1" Column="1" />
+      <File FileName="SubMailTest/App.config" Line="1" Column="1" />
+      <File FileName="SubMailTest/InternationalSmsMultiXSendDemo.cs" Line="1" Column="1" />
+      <File FileName="SubMailTest/InternationalSmsSendDemo.cs" Line="1" Column="1" />
+      <File FileName="SubMailTest/InternationalSmsXSendDemo.cs" Line="1" Column="1" />
+      <File FileName="SubMailTest/MailSendDemo.cs" Line="1" Column="1" />
+      <File FileName="SubMailTest/MailSendXDemo.cs" Line="16" Column="21" />
+      <File FileName="SubMailTest/MessageLogDemo.cs" Line="1" Column="1" />
+      <File FileName="SubMailTest/MessageMultiXSendDemo.cs" Line="15" Column="61" />
+      <File FileName="SubMailTest/MessageSendDemo.cs" Line="15" Column="61" />
+      <File FileName="SubMailTest/MessageSendXDemo.cs" Line="1" Column="1" />
+      <File FileName="SubMailTest/MessageTemplateDemo.cs" Line="45" Column="47" />
+      <File FileName="SubMailTest/VoiceMultiXSendDemo.cs" Line="1" Column="1" />
+      <File FileName="SubMailTest/VoiceSendDemo.cs" Line="18" Column="49" />
+      <File FileName="SubMailTest/VoiceVerifyDemo.cs" Line="17" Column="37" />
+      <File FileName="SubMailTest/VoiceXSendDemo.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.SubMailTest PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

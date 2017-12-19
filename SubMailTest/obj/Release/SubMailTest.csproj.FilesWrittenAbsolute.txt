@@ -1,9 +1,0 @@
-/Users/submail/Desktop/其他语言sdk/SUBMAIL_C_SHARP_SDK-master/SubMailTest/obj/Release/.NETFramework,Version=v4.5.AssemblyAttribute.cs
-/Users/submail/Desktop/其他语言sdk/SUBMAIL_C_SHARP_SDK-master/SubMailTest/bin/Release/SubMailTest.exe.config
-/Users/submail/Desktop/其他语言sdk/SUBMAIL_C_SHARP_SDK-master/SubMailTest/bin/Release/SubMailTest.pdb
-/Users/submail/Desktop/其他语言sdk/SUBMAIL_C_SHARP_SDK-master/SubMailTest/bin/Release/SubMailTest.exe
-/Users/submail/Desktop/其他语言sdk/SUBMAIL_C_SHARP_SDK-master/SubMailTest/obj/Release/SubMailTest.exe
-/Users/submail/Desktop/其他语言sdk/SUBMAIL_C_SHARP_SDK-master/SubMailTest/obj/Release/SubMailTest.pdb
-/Users/submail/Desktop/其他语言sdk/SUBMAIL_C_SHARP_SDK-master/SubMailTest/bin/Release/Submail.dll
-/Users/submail/Desktop/其他语言sdk/SUBMAIL_C_SHARP_SDK-master/SubMailTest/bin/Release/Submail.pdb
-/Users/submail/Desktop/其他语言sdk/SUBMAIL_C_SHARP_SDK-master/SubMailTest/bin/Release/Newtonsoft.Json.dll

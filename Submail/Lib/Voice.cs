@@ -12,7 +12,7 @@ namespace Submail.Lib
         private const string API_SEND = "http://api.submail.cn/voice/send.json";
         private const string API_XSEND = "http://api.submail.cn/voice/xsend.json";
         private const string API_MULTIXSEND = "http://api.submail.cn/voice/multixsend.json";
-        private const string API_VOICEVERIFY = "http://api.submail.cn/voice/verify";
+        private const string API_VOICEVERIFY = "http://api.submail.cn/voice/verify.json";
 
         private IAppConfig _appConfig;
         private HttpWebHelper _httpWebHelper;

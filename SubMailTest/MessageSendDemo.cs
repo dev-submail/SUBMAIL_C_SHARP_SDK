@@ -12,10 +12,10 @@ namespace SubMailTest
     {
         public void SendMessage()
         {
-			IAppConfig appConfig = new MessageConfig("apppid", "appkey",SignType.normal);
+			IAppConfig appConfig = new MessageConfig("appid", "appkey",SignType.md5);
             MessageSend messageSend = new MessageSend(appConfig);
             messageSend.AddTo("17602115149");
-            messageSend.AddContent("【SUBMAIL】你好，你的验证码是：11111");
+            messageSend.AddContent("【SUBMAIL】你好，你的验证码是：11112");
 			messageSend.AddTag("111111112");
 			string returnMessage = string.Empty;
 			messageSend.Send(out returnMessage);

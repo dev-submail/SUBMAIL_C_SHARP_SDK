@@ -12,7 +12,7 @@ namespace SubMailTest
     {
         public void SendMultiMessage()
         {
-			IAppConfig appConfig = new MessageConfig("apppid", "appkey", SignType.sha1);
+			IAppConfig appConfig = new MessageConfig("appid", "appkey", SignType.sha1);
             MessageMultiXSend messageMultiSend = new MessageMultiXSend(appConfig);
             messageMultiSend.SetProject("w3nla3");
 			messageMultiSend.AddTag("we235");

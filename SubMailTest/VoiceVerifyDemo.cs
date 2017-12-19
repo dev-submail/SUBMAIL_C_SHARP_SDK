@@ -12,10 +12,10 @@ namespace SubMailTest
     {
         public void SendVoiceVerify()
         {
-            IAppConfig appConfig = new VoiceAppConfig("apppid", "appkey");
+            IAppConfig appConfig = new VoiceAppConfig("appid", "appkey");
             VoiceVerify voiceVerify = new VoiceVerify(appConfig);
-            voiceVerify.AddTo("176015149");
-            voiceVerify.SetCode("38381438");
+            voiceVerify.AddTo("176025149");
+            voiceVerify.SetCode("1234543");
 			string returnMessage = string.Empty;
 			voiceVerify.Verify(out returnMessage);
             Console.WriteLine(returnMessage);

@@ -42,7 +42,7 @@ namespace SubMailTest
             //Console.ReadKey();
 
             //post
-            messageTemplate.PostSmsTitle("张杨你好");
+            messageTemplate.PostSmsTitle("上海赛邮");
             messageTemplate.PostSmsContent("你好，你的验证码是：110114");
             messageTemplate.PostSmSSignature("【SUBMAIL】");
             string returnMessage = string.Empty;
