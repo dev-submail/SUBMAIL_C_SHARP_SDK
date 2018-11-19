@@ -20,8 +20,8 @@ namespace SubMailTest
 			vars1.Add("code", "33344");
             vars1.Add("minue","18");
             messageMultiSend.SetMulti(new List<MultiMessageItem>() {
-                new MultiMessageItem() { to="17602115149",vars=vars1},
-                new MultiMessageItem() { to="13391155482", vars = vars1}
+                new MultiMessageItem() { to="176xxxx5149",vars=vars1},
+                new MultiMessageItem() { to="133xxxx5482", vars = vars1}
             });
 
             string returnMessage = string.Empty;

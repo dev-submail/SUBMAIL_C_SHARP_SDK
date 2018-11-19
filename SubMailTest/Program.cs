@@ -8,15 +8,15 @@ using System.Threading.Tasks;
 
 namespace SubMailTest
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
+	class Program
+	{
+		static void Main(string[] args)
+		{
 			//AddressBookMailDemo bookMail = new AddressBookMailDemo();
 			//bookMail.Subscribe();
 
-			 //MailSendDemo mailSendDemo = new MailSendDemo();
-			 //mailSendDemo.SendMail();
+			//MailSendDemo mailSendDemo = new MailSendDemo();
+			//mailSendDemo.SendMail();
 
 			//MessageLogDemo messageLogDemo = new MessageLogDemo();
 			//messageLogDemo.messageLog();
@@ -30,11 +30,30 @@ namespace SubMailTest
 			//MessageMultiXSendDemo messageMultiXSendDemo = new MessageMultiXSendDemo();
 			//messageMultiXSendDemo.SendMultiMessage();
 
+			//MessageMultiSendDemo messageMultiSendDemo = new MessageMultiSendDemo();
+			//messageMultiSendDemo.SendMultiMessage();
+
+			//MessageBalanceDemo submail = new MessageBalanceDemo();
+			//submail.balance();
+
+			//MailBalanceDemo submail = new MailBalanceDemo();
+			//submail.balance();
+
+			VoiceBalanceDemo submail = new VoiceBalanceDemo();
+			submail.balance();
+
+			//InternationalSmsVerifyphonenumberDemo submail = new InternationalSmsVerifyphonenumberDemo();
+			//submail.verify();
+
+			//InternationalSmsBalanceDemo submail = new InternationalSmsBalanceDemo();
+			//submail.balance();
+
+
 			//MessageTemplateDemo mtd = new MessageTemplateDemo();
 			//mtd.MessageTemplate();
 
-			VoiceSendDemo voiceSendDemo = new VoiceSendDemo();
-			voiceSendDemo.SendVoice();
+			//VoiceSendDemo voiceSendDemo = new VoiceSendDemo();
+			//voiceSendDemo.SendVoice();
 
 			//VoiceVerifyDemo voiceVerifyDemo = new VoiceVerifyDemo();
 			//voiceVerifyDemo.SendVoiceVerify();
@@ -56,6 +75,6 @@ namespace SubMailTest
 			//smsMultiXSendDemo.SendMultiSms();
 
 
-        }
-    }
+		}
+	}
 }

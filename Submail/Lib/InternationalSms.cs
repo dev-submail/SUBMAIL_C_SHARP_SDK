@@ -12,6 +12,8 @@ namespace Submail.Lib
 		private const string API_SEND = "http://api.mysubmail.com/internationalsms/send.json";
 		private const string API_XSEND = "http://api.mysubmail.com/internationalsms/xsend.json";
 		private const string API_MULTIXSEND = "https://api.mysubmail.com/internationalsms/multixsend.json";
+		private const string API_BALANCE = "http://api.mysubmail.com/balance/internationalsms.json";
+		private const string API_VERIFY = "http://api.mysubmail.com/service/verifyphonenumber.json";
 
 
 		private IAppConfig _appConfig;
@@ -42,6 +44,26 @@ namespace Submail.Lib
 			string returnJsonResult = _httpWebHelper.HttpPost(API_MULTIXSEND, data);
 			returnMessage = returnJsonResult;
 			return returnJsonResult;
+		}
+
+		public string Post(Dictionary<string, object> data, out string returnMessage)
+		{
+			string returnJsonResult = _httpWebHelper.HttpPost(API_VERIFY, data);
+			returnMessage = returnJsonResult;
+			return returnJsonResult;
+		}
+
+
+		public string Balance(Dictionary<string, object> data, out string returnMessage)
+		{
+			string returnJsonResult = _httpWebHelper.HttpPost(API_BALANCE, data);
+			returnMessage = returnJsonResult;
+			return returnJsonResult;
+		}
+
+		public string MultiSend(Dictionary<string, object> data, out string returnMessage)
+		{
+			throw new NotImplementedException();
 		}
 
 		public string Subscribe(Dictionary<string, object> data, out string returnMessage)
@@ -79,9 +101,8 @@ namespace Submail.Lib
 			throw new NotImplementedException();
 		}
 
-		public string Post(Dictionary<string, object> data, out string returnMessage)
-		{
-			throw new NotImplementedException();
-		}
+
+
+
 	}
 }

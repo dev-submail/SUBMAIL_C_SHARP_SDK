@@ -18,15 +18,15 @@ namespace SubMailTest
 
             Dictionary<string, string> vars = new Dictionary<string, string>();
             vars.Add("place", "上海");
-            vars.Add("name", "张杨");
+            vars.Add("name", "xx");
 
             Dictionary<string, string> vars2 = new Dictionary<string, string>();
             vars2.Add("place", "北京");
-            vars2.Add("name", "老江");
+            vars2.Add("name", "xx");
 
             voiceMultiXSend.SetMulti(new List<MultiMessageItem>() {
-                new MultiMessageItem() { to="176025149", vars = vars},
-                new MultiMessageItem() { to="13355482", vars = vars2},
+                new MultiMessageItem() { to="176xxxx5149", vars = vars},
+                new MultiMessageItem() { to="133xxxx55482", vars = vars2},
             });
 
 			string returnMessage = string.Empty;

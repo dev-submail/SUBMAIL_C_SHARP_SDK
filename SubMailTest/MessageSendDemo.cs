@@ -14,9 +14,9 @@ namespace SubMailTest
         {
 			IAppConfig appConfig = new MessageConfig("appid", "appkey",SignType.md5);
             MessageSend messageSend = new MessageSend(appConfig);
-            messageSend.AddTo("17602115149");
+            messageSend.AddTo("176xxxx5149");
             messageSend.AddContent("【SUBMAIL】你好，你的验证码是：11112");
-			messageSend.AddTag("111111112");
+			messageSend.AddTag("xxxxx");
 			string returnMessage = string.Empty;
 			messageSend.Send(out returnMessage);
 			Console.WriteLine(returnMessage);

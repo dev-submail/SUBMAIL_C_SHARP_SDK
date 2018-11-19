@@ -78,6 +78,12 @@
     <Compile Include="Lib\VoiceMultiXSend.cs" />
     <Compile Include="Lib\VoiceXSend.cs" />
     <Compile Include="Lib\VoiceVerify.cs" />
+    <Compile Include="Lib\MessageMutilSend.cs" />
+    <Compile Include="Lib\MessageBalance.cs" />
+    <Compile Include="Lib\InternationalSmsBalance.cs" />
+    <Compile Include="Lib\InternationalSmsVerifyphonenumber.cs" />
+    <Compile Include="Lib\MailBalance.cs" />
+    <Compile Include="Lib\VoiceBalance.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

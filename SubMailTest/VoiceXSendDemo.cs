@@ -14,10 +14,10 @@ namespace SubMailTest
         {
             IAppConfig appConfig = new VoiceAppConfig("apppid", "appkey");
             VoiceXSend voiceXSend = new VoiceXSend(appConfig);
-            voiceXSend.AddTo("176115149");
+            voiceXSend.AddTo("176xxxx5149");
             voiceXSend.SetProject("WZlIv3");
-            voiceXSend.AddVar("name", "张杨");
-            voiceXSend.AddVar("place", "江湖大道");
+            voiceXSend.AddVar("name", "xx");
+            voiceXSend.AddVar("place", "上海");
 			string returnMessage = string.Empty;
 			voiceXSend.XSend(out returnMessage);
             Console.WriteLine(returnMessage);

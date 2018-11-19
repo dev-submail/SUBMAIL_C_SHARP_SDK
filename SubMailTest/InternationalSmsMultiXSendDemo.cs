@@ -13,7 +13,6 @@ namespace SubMailTest
 		public void SendMultiSms()
 		{
 			IAppConfig appConfig = new InternationalSmsConfig("apppid", "appkey", SignType.normal);
-
 			InternationalSmsMultiXSend smsMultiXSend = new InternationalSmsMultiXSend(appConfig);
 			smsMultiXSend.SetProject("w3nla3");
 

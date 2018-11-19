@@ -14,8 +14,8 @@ namespace SubMailTest
         {
             IAppConfig appConfig = new VoiceAppConfig("appid", "appkey");
             VoiceSend voiceSend = new VoiceSend(appConfig);
-            voiceSend.AddTo("176025149");
-			voiceSend.AddContent("欢迎来到江苏，welcome to china");
+            voiceSend.AddTo("1760xxx149");
+			voiceSend.AddContent("欢迎来到江苏，welcome to jiangsu");
 			string returnMessage = string.Empty;
 			voiceSend.Send(out returnMessage);
             Console.WriteLine(returnMessage);
