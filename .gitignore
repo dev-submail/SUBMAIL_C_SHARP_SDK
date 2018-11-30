@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs/Submail/v15
+/Submail/obj/Debug
+/SubmailCore/bin/Debug/netstandard2.0
+/SubmailCore/obj
+/SubMailTest/obj/Debug
