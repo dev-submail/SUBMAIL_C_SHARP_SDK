@@ -68,6 +68,8 @@
     <Compile Include="InternationalSmsBalanceDemo.cs" />
     <Compile Include="MailBalanceDemo.cs" />
     <Compile Include="VoiceBalanceDemo.cs" />
+    <Compile Include="MMSXSendDemo.cs" />
+    <Compile Include="MMSMultiXsendDemo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

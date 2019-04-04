@@ -9,25 +9,25 @@ using System.Threading.Tasks;
 
 namespace Submail.Lib
 {
-	public class MessageMultiSend : SendBase
+	public class MMSMultiXSend : SendBase
 	{
-		public const string CONTENT = "content";
+		public const string PROJECT = "project";
 		public const string MULTI = "multi";
 		public const string TAG = "tag";
 		public const string OTHER = "other";
 
-		public MessageMultiSend(IAppConfig appConfig) : base(appConfig)
+        public MMSMultiXSend(IAppConfig appConfig) : base(appConfig)
 		{
 		}
 
 		protected override ISender GetSender()
 		{
-			return new Message(_appConfig);
+			return new MMS(_appConfig);
 		}
 
-		public void SetContent(string content)
+		public void SetProject(string project)
 		{
-			this._dataPair.Add(CONTENT, content);
+			this._dataPair.Add(PROJECT, project);
 		}
 
 		public void SetMulti(List<MultiMessageItem> multiItems)
@@ -40,10 +40,11 @@ namespace Submail.Lib
 			this.AddWithJson(OTHER, TAG, val);
 		}
 
-		public string MultiSend(out string returnMessage)
+		public string MultiXSend(out string returnMessage)
 		{
-			return this.GetSender().MultiSend(_dataPair, out returnMessage);
+			return this.GetSender().MultiXSend(_dataPair, out returnMessage);
 		}
 	}
+
 
 }

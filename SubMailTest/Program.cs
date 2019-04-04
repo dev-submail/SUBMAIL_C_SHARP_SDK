@@ -39,8 +39,8 @@ namespace SubMailTest
 			//MailBalanceDemo submail = new MailBalanceDemo();
 			//submail.balance();
 
-			VoiceBalanceDemo submail = new VoiceBalanceDemo();
-			submail.balance();
+			//VoiceBalanceDemo submail = new VoiceBalanceDemo();
+			//submail.balance();
 
 			//InternationalSmsVerifyphonenumberDemo submail = new InternationalSmsVerifyphonenumberDemo();
 			//submail.verify();
@@ -74,6 +74,13 @@ namespace SubMailTest
 			//InternationalSmsMultiXSendDemo smsMultiXSendDemo = new InternationalSmsMultiXSendDemo();
 			//smsMultiXSendDemo.SendMultiSms();
 
+
+			//MMSXSendDemo submail = new MMSXSendDemo();
+			//submail.XSendSms();
+
+
+			MMSMultiXSendDemo submail = new MMSMultiXSendDemo();
+			submail.SendMultiSms();
 
 		}
 	}

@@ -84,6 +84,10 @@
     <Compile Include="Lib\InternationalSmsVerifyphonenumber.cs" />
     <Compile Include="Lib\MailBalance.cs" />
     <Compile Include="Lib\VoiceBalance.cs" />
+    <Compile Include="AppConfig\MMSConfig.cs" />
+    <Compile Include="Lib\MMS.cs" />
+    <Compile Include="Lib\MMSXSend.cs" />
+    <Compile Include="Lib\MMSMultiXSend.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

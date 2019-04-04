@@ -10,3 +10,9 @@
 /Users/submail/Desktop/C#1219/SUBMAIL_C_SHARP_SDK-master/Submail/obj/Debug/Submail.dll
 /Users/submail/Desktop/C#1219/SUBMAIL_C_SHARP_SDK-master/Submail/obj/Debug/Submail.pdb
 /Users/submail/Desktop/C#1219/SUBMAIL_C_SHARP_SDK-master/Submail/bin/Debug/Newtonsoft.Json.dll
+/Users/submail/Downloads/SUBMAIL_C_SHARP_SDK-master/Submail/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/submail/Downloads/SUBMAIL_C_SHARP_SDK-master/Submail/bin/Debug/Submail.pdb
+/Users/submail/Downloads/SUBMAIL_C_SHARP_SDK-master/Submail/bin/Debug/Submail.dll
+/Users/submail/Downloads/SUBMAIL_C_SHARP_SDK-master/Submail/obj/Debug/Submail.dll
+/Users/submail/Downloads/SUBMAIL_C_SHARP_SDK-master/Submail/obj/Debug/Submail.pdb
+/Users/submail/Downloads/SUBMAIL_C_SHARP_SDK-master/Submail/bin/Debug/Newtonsoft.Json.dll
