@@ -1,31 +1,44 @@
 ﻿<Properties StartupConfiguration="{633FCAB2-6BAA-4EE7-BB3E-41C5FEE836A8}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Submail/AppConfig/IAppConfig.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SubMailTest/MMSBalanceDemo.cs">
     <Files>
       <File FileName="SubMailTest/AddressBookMailDemo.cs" Line="1" Column="1" />
-      <File FileName="Submail/Lib/Message.cs" Line="39" Column="47" />
+      <File FileName="Submail/Lib/Message.cs" Line="120" Column="4" />
       <File FileName="Submail/AppConfig/MMSConfig.cs" Line="8" Column="15" />
       <File FileName="Submail/AppConfig/MessageConfig.cs" Line="1" Column="1" />
-      <File FileName="Submail/Lib/MMS.cs" Line="34" Column="37" />
+      <File FileName="Submail/Lib/MMS.cs" Line="14" Column="24" />
       <File FileName="Submail/Lib/Mail.cs" Line="29" Column="46" />
-      <File FileName="Submail/Lib/ISender.cs" Line="8" Column="19" />
+      <File FileName="Submail/Lib/ISender.cs" Line="24" Column="10" />
       <File FileName="Submail/Lib/InternationalSms.cs" Line="19" Column="33" />
       <File FileName="Submail/Lib/MMSXSend.cs" Line="33" Column="41" />
       <File FileName="Submail/Lib/MessageXSend.cs" Line="1" Column="1" />
-      <File FileName="Submail/Lib/MMSMultiXSend.cs" Line="26" Column="4" />
-      <File FileName="Submail/Lib/MessageMultiXSend.cs" Line="1" Column="1" />
+      <File FileName="Submail/Lib/MMSMultiXSend.cs" Line="1" Column="1" />
+      <File FileName="Submail/Lib/MessageMultiXSend.cs" Line="49" Column="18" />
       <File FileName="Submail/Lib/InternationalSmsMultiXSend.cs" Line="1" Column="1" />
       <File FileName="SubMailTest/MMSXSendDemo.cs" Line="15" Column="33" />
-      <File FileName="SubMailTest/MMSMultiXsendDemo.cs" Line="16" Column="44" />
+      <File FileName="SubMailTest/MMSMultiXsendDemo.cs" Line="31" Column="4" />
       <File FileName="SubMailTest/InternationalSmsXSendDemo.cs" Line="30" Column="1" />
       <File FileName="SubMailTest/InternationalSmsMultiXSendDemo.cs" Line="16" Column="89" />
-      <File FileName="SubMailTest/Program.cs" Line="82" Column="16" />
+      <File FileName="SubMailTest/Program.cs" Line="86" Column="14" />
       <File FileName="Submail/AppConfig/IAppConfig.cs" Line="1" Column="1" />
+      <File FileName="Submail/Lib/MMSTemplate.cs" Line="52" Column="74" />
+      <File FileName="Submail/Lib/MessageTemplate.cs" Line="47" Column="10" />
+      <File FileName="SubMailTest/MMSTemplateDemo.cs" Line="18" Column="67" />
+      <File FileName="SubMailTest/MessageTemplateDemo.cs" Line="49" Column="60" />
+      <File FileName="Submail/Lib/MMSBalance.cs" Line="22" Column="18" />
+      <File FileName="Submail/Lib/MessageBalance.cs" Line="32" Column="1" />
+      <File FileName="SubMailTest/MessageMultiXSendDemo.cs" Line="23" Column="34" />
+      <File FileName="Submail/Lib/MessageMutilSend.cs" Line="40" Column="16" />
+      <File FileName="Submail/Lib/SendBase.cs" Line="114" Column="14" />
+      <File FileName="Submail/Lib/VoiceMultiXSend.cs" Line="34" Column="10" />
+      <File FileName="SubMailTest/MMSBalanceDemo.cs" Line="1" Column="1" />
+      <File FileName="SubMailTest/MessageBalanceDemo.cs" Line="27" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/submail/Downloads/SUBMAIL_C_SHARP_SDK-master/Submail/Lib/InternationalSms.cs" relfile="Submail/Lib/InternationalSms.cs" line="108" column="1" />
+      <Breakpoint file="/Users/submail/Desktop/C# SDK625/SUBMAIL_C_SHARP_SDK-master/Submail/Lib/InternationalSms.cs" relfile="Submail/Lib/InternationalSms.cs" line="108" column="1" />
+      <Breakpoint file="/Users/submail/Desktop/C# SDK625/SUBMAIL_C_SHARP_SDK-master/SubMailTest/MMSTemplateDemo.cs" relfile="SubMailTest/MMSTemplateDemo.cs" line="94" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

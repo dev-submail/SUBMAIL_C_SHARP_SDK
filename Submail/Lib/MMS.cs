@@ -11,6 +11,8 @@ namespace Submail.Lib
 	{
 		private const string API_XSEND = "http://api.mysubmail.com/mms/xsend.json";
 		private const string API_MULTIXSEND = "https://api.mysubmail.com/mms/multixsend.json";
+		private const string API_TEMPLATE = "https://api.mysubmail.com/mms/template.xml";
+		private const string API_BALANCE = "http://api.mysubmail.com/balance/mms.json";
 
 
 
@@ -42,15 +44,13 @@ namespace Submail.Lib
 			return returnJsonResult;
 		}
 
-		public string Post(Dictionary<string, object> data, out string returnMessage)
-		{
-			throw new NotImplementedException();
-		}
 
 
 		public string Balance(Dictionary<string, object> data, out string returnMessage)
 		{
-			throw new NotImplementedException();
+			string returnJsonResult = _httpWebHelper.HttpPost(API_BALANCE, data);
+			returnMessage = returnJsonResult;
+			return returnJsonResult;
 		}
 
 		public string MultiSend(Dictionary<string, object> data, out string returnMessage)
@@ -80,17 +80,31 @@ namespace Submail.Lib
 
 		public string Get(Dictionary<string, object> data, out string returnMessage)
 		{
-			throw new NotImplementedException();
+
+			string returnJsonResult = _httpWebHelper.GetTemplate(API_TEMPLATE, data);
+			returnMessage = returnJsonResult;
+			return returnJsonResult;
 		}
 
 		public string Put(Dictionary<string, object> data, out string returnMessage)
 		{
-			throw new NotImplementedException();
+			string returnJsonResult = _httpWebHelper.PutTemplate(API_TEMPLATE, data);
+			returnMessage = returnJsonResult;
+			return returnJsonResult;
 		}
 
 		public string Delete(Dictionary<string, object> data, out string returnMessage)
 		{
-			throw new NotImplementedException();
+			string returnJsonResult = _httpWebHelper.DelTemplate(API_TEMPLATE, data);
+			returnMessage = returnJsonResult;
+			return returnJsonResult;
+		}
+
+		public string Post(Dictionary<string, object> data, out string returnMessage)
+		{
+			string returnJsonResult = _httpWebHelper.HttpPost(API_TEMPLATE, data);
+			returnMessage = returnJsonResult;
+			return returnJsonResult;
 		}
 
 
