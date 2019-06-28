@@ -79,8 +79,15 @@ namespace SubMailTest
 			//submail.XSendSms();
 
 
-			MMSMultiXSendDemo submail = new MMSMultiXSendDemo();
-			submail.SendMultiSms();
+			//MMSMultiXSendDemo submail = new MMSMultiXSendDemo();
+			//submail.SendMultiSms();
+
+
+			MMSTemplateDemo m = new MMSTemplateDemo();
+			m.MMSTemplate();
+
+			//MMSBalanceDemo m = new MMSBalanceDemo();
+			//m.balance();
 
 		}
 	}

@@ -88,6 +88,8 @@
     <Compile Include="Lib\MMS.cs" />
     <Compile Include="Lib\MMSXSend.cs" />
     <Compile Include="Lib\MMSMultiXSend.cs" />
+    <Compile Include="Lib\MMSTemplate.cs" />
+    <Compile Include="Lib\MMSBalance.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
